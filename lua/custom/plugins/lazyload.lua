@@ -1,0 +1,10 @@
+--require("lazyload").on_vim_enter(function()
+-- build command on plugin install/update
+--	vim.api.nvim_create_autocmd("PackChanged",{})
+-- add plugin
+--vim.pack.add()
+-- configure plugin
+--	require("plugin").setup()
+-- keymaps
+--vim.keymap.set()
+--end)
