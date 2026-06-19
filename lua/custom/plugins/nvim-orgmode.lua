@@ -8,8 +8,8 @@ return {
   },
   -- setup orgmode
   require('orgmode').setup {
-    org_agenda_files = '$HOME/org/**/*',
-    org_default_notes_file = '$HOME/org/refile.org',
+    org_agenda_files = '/Users/mikhael/org/**/*',
+    org_default_notes_file = '/Users/mikhael/org/refile.org',
   },
   vim.lsp.enable 'org',
 }

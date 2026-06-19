@@ -1,4 +1,5 @@
 do
+  -- navigation
   vim.keymap.set('n', '<leader>kk', function() vim.cmd [[WhichKey]] end, { desc = 'Keymap All' })
   vim.keymap.set('n', '<leader>ka', function() vim.cmd [[KeyAnalyzer <leader>]] end, { desc = 'Key Analyzer' })
   vim.keymap.set('n', '<leader>kn', function() vim.cmd [[nmap]] end, { desc = 'Key Normal Mode' })
